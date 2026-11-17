@@ -324,16 +324,16 @@ class VD
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        //Console.WriteLine("BAI 1");
-        //Bai1();
-        //Console.WriteLine("\nBAI 2");
-        //Bai2();
-        //Console.WriteLine("\nBAI 3");
-        //Bai3();
-        //Console.WriteLine("\nBAI 4");
-        //Bai4();
-        //Console.WriteLine("\nBAI 5");
-        //Bai5();
+        Console.WriteLine("BAI 1");
+        Bai1();
+        Console.WriteLine("\nBAI 2");
+        Bai2();
+        Console.WriteLine("\nBAI 3");
+        Bai3();
+        Console.WriteLine("\nBAI 4");
+        Bai4();
+        Console.WriteLine("\nBAI 5");
+        Bai5();
         Console.WriteLine("\nBAI 7");
         Bai7();
 
