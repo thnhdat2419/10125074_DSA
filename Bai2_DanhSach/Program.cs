@@ -1,8 +1,35 @@
 
 using System;
 
+// KHAI BAO NHAN VIEN
+struct NhanVien
+{
+    public string MaNV;
+    public string Hoten;
+    public int Namsinh;
+    public string Phongban;
+    public int LuongCB;
+    public int Thuong;
+}
+
+// KHAI BAO NODE
+class Node
+{
+    public int Data;
+    public Node Next;
+
+    public Node(int d)
+    {
+        Data = d;
+        Next = null;
+    }
+}
+
 class VD
 {
+    static NhanVien[] DS;
+    static Node pHead = null;
+
     // BAI 1
     static void Bai1()
     {
@@ -46,12 +73,12 @@ class VD
         Console.WriteLine("Mang sau khi chen:");
         for (int i = 0; i < n + 1; i++)
             Console.Write(b[i] + " ");
+
+        Console.WriteLine();
     }
 
 
     // BAI 2
-    static NhanVien[] DS;
-
     static int Thuclinh(int i)
     {
         return DS[i].LuongCB + DS[i].Thuong;
@@ -216,8 +243,6 @@ class VD
 
 
     // NHAP DANH SACH LIEN KET
-    static Node pHead = null;
-
     static void NhapDS()
     {
         pHead = null;
@@ -410,10 +435,8 @@ class VD
 
         int max = a[0];
         int min = a[0];
-
         int vtMax = 0;
         int vtMin = 0;
-
         double tong = 0;
 
         for (int i = 0; i < n; i++)
