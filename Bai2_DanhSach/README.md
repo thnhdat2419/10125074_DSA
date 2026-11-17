@@ -1,7 +1,7 @@
 
 ## BÀI 1:
 
-### Input
+
 ```text
 Nhap so phan tu: 3
 Nhap a[0]: 2
@@ -11,7 +11,7 @@ Nhap x: 2
 Nhap vi tri chen: 1
 ```
 
-### Output
+
 ```text
 Mang ban dau:
 2 1 4
@@ -24,7 +24,7 @@ Mang sau khi chen:
 
 ## BÀI 2:
 
-### Input
+
 ```text
 Nhap so nhan vien: 2
 
@@ -45,7 +45,7 @@ Luong co ban: 1000
 Thuong: 12000
 ```
 
-### Output
+
 ```text
 Tong thuc linh: 15200
 
@@ -67,7 +67,7 @@ Danh sach sau tang luong:
 
 ## BÀI 3:
 
-### Input
+
 ```text
 Nhap n: 3
 a[0,0] = 1
@@ -81,7 +81,7 @@ a[2,1] = 1
 a[2,2] = 4
 ```
 
-### Output
+
 ```text
 Tong ma tran: 26
 So duong nho nhat: 1
@@ -93,7 +93,7 @@ Cheo chinh tang dan: False
 
 ## BÀI 4:
 
-### Input
+
 ```text
 Nhap so phan tu: 3
 Nhap phan tu: 2
@@ -102,7 +102,7 @@ Nhap phan tu: 4
 Nhap x: 2
 ```
 
-### Output
+
 ```text
 So phan tu bang x: 1
 So duong nho nhat: 2
@@ -115,14 +115,14 @@ Danh sach sau khi xoa:
 
 ## BÀI 5:
 
-### Input
+
 ```text
 Nhap so phan tu: 1
 Nhap phan tu: 4
 Nhap x: 5
 ```
 
-### Output
+
 ```text
 Phan tu lon nhat: 4
 Tong: 4
@@ -138,14 +138,14 @@ So duong nho nhat: 4
 
 ## BÀI 7:
 
-### Input
+
 ```text
 Nhap so ngay: 2
 Nhap nhiet do ngay 1: 23
 Nhap nhiet do ngay 2: 43
 ```
 
-### Output
+
 ```text
 Nhiet do cao nhat: 43
 Ngay: 2
